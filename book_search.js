@@ -45,7 +45,6 @@
             
             // Check for End-of-line hyphenation
             if ((textLine[textLine.length - 1] == "-") && (contentNum < book.Content.length - 1)){
-                // TODO: Out of range check for contentNum + 1
                 if (hyphen_search(searchTerm, 
                                 textList[textList.length - 1], 
                                 page, 
